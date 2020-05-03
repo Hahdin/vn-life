@@ -11,7 +11,6 @@ var app = new Vue({
   mounted() {
     this.canvas = document.getElementById('sparkles');
     this.ctx = this.canvas.getContext('2d');
-    this.ctx.globalCompositeOperation = "xor";
     this.updateSize();
     window.addEventListener('resize', this.updateSize);
     this.fill('rgba(0,0,0,1)');
