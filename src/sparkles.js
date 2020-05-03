@@ -106,7 +106,6 @@ var app = new Vue({
         ${Math.round(Math.random() * 255)},
         ${Math.round(Math.random() * 255)},
         ${Math.round(Math.random() * 255)}, ${op})`;
-      console.log(clr);
       return clr;
     },
   },
